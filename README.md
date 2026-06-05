@@ -55,14 +55,12 @@ physics-consistent-heat-surrogate-benchmark/
 │   ├── sample_prediction_D6_CNN.png
 │   └── sample_prediction_D8var_CNN.png
 ├── reviewer_artifacts/
-│   ├── run_config.json
-│   ├── run_card.json
-│   ├── environment.json
-│   ├── pip_freeze.txt
-│   ├── nvidia_smi.txt
-│   └── README_REPRODUCIBILITY.md
-└── manuscript/
-    └── paper.pdf
+    ├── run_config.json
+    ├── run_card.json
+    ├── environment.json
+    ├── pip_freeze.txt
+    ├── nvidia_smi.txt
+    └── README_REPRODUCIBILITY.md
 ```
 
 ## Datasets
