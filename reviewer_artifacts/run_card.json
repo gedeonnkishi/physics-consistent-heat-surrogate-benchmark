@@ -1,0 +1,61 @@
+{
+  "run_mode": "publication",
+  "strict_reproducibility": true,
+  "use_mixed_precision": false,
+  "n_grid": 25,
+  "datasets_main": [
+    "D6",
+    "D8var"
+  ],
+  "models": [
+    "cnn",
+    "gnn",
+    "eqelm"
+  ],
+  "n_d6": 10000,
+  "n_d8": 10000,
+  "n_irregular": 7000,
+  "seeds_main": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seeds_ablation": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "lambda_physics_main": 0.01,
+  "lambda_grid": [
+    0.0,
+    1e-06,
+    3e-06,
+    1e-05,
+    3e-05,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "normalization_protocol": "train_only_channelwise_standardization",
+  "cnn_base_width": 40,
+  "gnn_hidden_dim": 128,
+  "gnn_layers": 6,
+  "eqelm_hidden": 768,
+  "eqelm_ridge": 0.001
+}
