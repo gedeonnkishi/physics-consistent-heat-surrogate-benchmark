@@ -1,0 +1,17 @@
+# Core scientific stack
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+tqdm
+
+# Deep learning
+torch
+
+# Notebook execution
+jupyter
+ipykernel
+
+# Optional system utilities
+psutil
