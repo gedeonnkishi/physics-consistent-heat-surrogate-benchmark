@@ -1,0 +1,7 @@
+dataset,baseline,model,metric,n_pairs,mean_difference_comparison_minus_baseline,cohen_dz,wilcoxon_statistic,p_value
+D6,cnn,GNN,latency_ms,10,0.22299327698630694,103.36384515866001,0.0,0.001953125
+D6,cnn,eQELM,latency_ms,10,-0.07122108591315542,-68.32953844912336,0.0,0.001953125
+D8irregular,cnn,GNN,latency_ms,5,0.2224625335035161,98.23959998123584,0.0,0.0625
+D8irregular,cnn,eQELM,latency_ms,5,-0.06840605384264238,-85.46639912839343,0.0,0.0625
+D8var,cnn,GNN,latency_ms,10,0.22382420163763608,182.54506325025224,0.0,0.001953125
+D8var,cnn,eQELM,latency_ms,10,-0.07162140142442525,-145.18371632411794,0.0,0.001953125

@@ -1,0 +1,7 @@
+dataset,baseline,model,metric,n_pairs,mean_difference_comparison_minus_baseline,cohen_dz,wilcoxon_statistic,p_value
+D6,cnn,GNN,physics_error,10,1.2090021326206624,56.13841686186484,0.0,0.001953125
+D6,cnn,eQELM,physics_error,10,-0.010960743669420485,-0.6452720269280495,10.0,0.083984375
+D8irregular,cnn,GNN,physics_error,5,4.3965566403336,39.06583506464484,0.0,0.0625
+D8irregular,cnn,eQELM,physics_error,5,42.19571559495396,252.13695514189723,0.0,0.0625
+D8var,cnn,GNN,physics_error,10,2.4851598673189677,35.77504051482407,0.0,0.001953125
+D8var,cnn,eQELM,physics_error,10,-0.01252575535327198,-0.23953288237359657,21.0,0.556640625
