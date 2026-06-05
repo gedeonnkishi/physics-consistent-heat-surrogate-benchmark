@@ -1,0 +1,4 @@
+dataset,path,sha256,size_mb,n_grid,channels,n_train,n_val,n_test,variant,scaler_type
+D6,/kaggle/working/data/dataset_D6.npz,b9f00f0731d30bc51aa00cd42c772220c38f22c3565edc545ea2e959f691d4da,71.87080001831055,25,3,7000,1500,1500,D6,train_only_channelwise_standardization
+D8var,/kaggle/working/data/dataset_D8var.npz,40ae6a1ef80562d7849bb080e76673bbeb156d879d9f4c406ed68df74ea97180,86.1709451675415,25,3,7000,1500,1500,D8var,train_only_channelwise_standardization
+D8irregular,/kaggle/working/data/dataset_D8irregular.npz,03674a5f9adf66bd7726081cefbf71b4827e6392f36f89c8558163b85f81f69c,117.36060619354248,25,5,4900,1050,1050,D8irregular,train_only_channelwise_standardization
